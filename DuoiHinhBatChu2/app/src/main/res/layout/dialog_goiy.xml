@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:orientation="vertical"
+    android:background="@drawable/img_dialog"
+    android:layout_margin="16dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:padding="12dp"
+        android:text="Bạn đã trả lời đúng"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:background="@drawable/img_dialog_header"
+        />
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đáp án:"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:padding="16dp"
+
+
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtdapan"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đáp án"
+            android:textSize="20sp"
+            android:textColor="#ffff4444"/>"
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bạn đã nhận được 2 xu"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        >
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_no"
+
+            android:text="oke"
+            android:id="@+id/btn_oke"
+            android:textSize="18sp"
+            android:textColor="#ffffff"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
